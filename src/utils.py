@@ -42,7 +42,7 @@ def getBaseLayer(img, kernel_size, sigma):
 
 def getAvgMask(img, kernel_h, kernel_w):
     """
-    Get smooth mask by average.
+    Get smooth mask by averaging
     :param img: input image
     :param kernel_h: height of kernel
     :param kernel_w: weight of kernel
